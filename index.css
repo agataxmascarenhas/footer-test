@@ -13,7 +13,7 @@
 footer {
   background-color: var(--color-text-primary);
   height: 246px;
-  width: 1440px;
+  width: auto;
 }
 
 /*li {
@@ -35,7 +35,6 @@ ul {
 
 p {
   color: var(--color-secondary);
-  padding-top: 135px;
   margin: 0px;
 }
 
