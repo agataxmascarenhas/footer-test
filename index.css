@@ -1,0 +1,58 @@
+:root {
+  --color-text-primary: #002324;
+  --color-text-secondary: #fff;
+  --color-primary: #6608c5;
+  --color-secondary: #fff;
+}
+
+/* styles reset */
+* {
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: var(--color-text-primary);
+  height: 246px;
+  width: 1440px;
+}
+
+/*li {
+  padding: 0px 20px 0 20px;
+}*/
+
+.footer-section {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  padding-top: 61px;
+  margin: 0;
+  list-style-type: none;
+}
+
+p {
+  color: var(--color-secondary);
+  padding-top: 135px;
+  margin: 0px;
+}
+
+.social-link {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-size: 35px;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.github {
+  background-image: url(/icon-github.png);
+}
+
+.linkedin {
+  background-image: url(/icon-linkedin.png);
+}
